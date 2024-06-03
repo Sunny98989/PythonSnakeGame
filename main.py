@@ -215,7 +215,7 @@ window.bind('<Left>', lambda event: change_direction('left'))
 window.bind('<Right>', lambda event: change_direction('right'))
 window.bind('<Up>', lambda event: change_direction('up'))
 window.bind('<Down>', lambda event: change_direction('down'))
-window.bind('<Return>', start_game)  # Start game on Enter key press
+window.bind('<Return>', start_game)
 
 snake = Snake()
 food = Food()
